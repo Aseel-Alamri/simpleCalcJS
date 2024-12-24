@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Two Numbers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #e4c5e9; 
+            color: #1e49c0; 
+        }
+        h1 {
+            color: #1e49c0;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        label, input {
+            display: block;
+            width: 20%;
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: #1e49c0;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+        #result {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        h2 {
+        color: #c15ea1; 
+        text-align: center; 
+        font-family: 'Arial', sans-serif; 
+        margin-top: 10px; 
+    }
+    </style>
+</head>
+<body>
+    <h2>Hello, I am Aseel. I made this simple calculator.</h2>
+
+    <h1>Sum Two Numbers</h1>
+
+    <div class="group">
+        <label for="num1">Enter first number:</label>
+        <input type="text" id="num1" placeholder="First number">
+    </div>
+
+    <div class="group">
+        <label for="num2">Enter second number:</label>
+        <input type="text" id="num2" placeholder="Second number">
+    </div>
+    
+    <button onclick="calculateSum()" >SUM</button>
+    
+    <p id="result"></p>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+
